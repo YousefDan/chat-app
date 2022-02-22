@@ -1,0 +1,54 @@
+.join {
+  width: 50%;
+  margin: auto;
+  .joinTitle {
+    background-color: darkblue;
+    padding: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 32px;
+      font-weight: 500;
+    }
+    i.fa-smile {
+      font-size: 40px;
+      margin-right: 7px;
+    }
+  }
+  .joinForm {
+    padding: 17px;
+    background-color: blue;
+    .inputGroup {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 17px;
+      label {
+        color: white;
+        margin-bottom: 5px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      input,
+      select {
+        padding: 10px;
+        border: 1px solid gray;
+        font-size: 21px;
+        border-radius: 7px;
+      }
+    }
+    .joinBtn {
+      width: 100%;
+      background-color: #efefef;
+      color: darkblue;
+      font-size: 27px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      border-radius: 7px;
+      padding: 7px;
+      margin-top: 21px;
+    }
+  }
+}
